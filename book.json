@@ -1,11 +1,17 @@
 {
     "root": "./docs",
     "title": "Caelum Documentation",
-    "plugins": ["insert-logo"],
+    "plugins": ["insert-logo","copy-code-button","hints"],
     "pluginsConfig": {
         "insert-logo": { 
             "url": "/images/lorena.png",
             "style": "background: none; width: 100%"
+        },
+        "hints": {
+            "info": "fa fa-info-circle",
+            "tip": "fa fa-mortar-board",
+            "danger": "fa fa-exclamation-cicle",
+            "working": "fa fa-wrench"
         }
     },
     "styles": {
